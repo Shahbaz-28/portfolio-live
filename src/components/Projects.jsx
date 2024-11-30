@@ -12,11 +12,11 @@ const ProjectCard = ({ title, description, imageUrl, buttonLabel, onClick }) => 
         className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
       />
     </div>
-    <CardContent className="p-6">
+    <CardContent className="p-4">
       <CardTitle className="text-2xl mb-3">{title}</CardTitle>
       <p className="text-muted-foreground">{description}</p>
     </CardContent>
-    <CardFooter className="p-6 pt-0">
+    <CardFooter className="p-4 pt-0">
       <Button onClick={onClick} variant="outline" className="w-full">
         {buttonLabel}
         <ArrowRight className="ml-2 h-4 w-4" />
@@ -89,7 +89,7 @@ const Project = () => {
   const openLink = (url) => window.open(url, "_blank");
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-1 py-8">
       <h1 className="text-4xl font-bold text-center mb-8 text-primary">
         Some Cool Stuff I&apos;ve Built
       </h1>
