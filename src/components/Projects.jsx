@@ -36,12 +36,44 @@ ProjectCard.propTypes = {
 const Project = () => {
   const projects = [
     {
+      id: 2,
+      title: "Next-gen Design",
+      description: "A modern, next-gen design ecosystem landing page",
+      imageUrl: "/images/modern.png", // placeholder
+      buttonLabel: "View Project",
+      link: "https://cohyve-cooasis-lqoe.vercel.app/",
+    },
+    {
       id: 1,
       title: "DNS Manager",
       description: "Manage and automate your DNS configurations with ease.",
       imageUrl: "/images/dns.jpg", // placeholder
       buttonLabel: "View Project",
       link: "https://dnsmanager.vercel.app/",
+    },
+    // {
+    //   id: 3,
+    //   title: "The Ram Interior",
+    //   description: "Transform your space with elegant interior design.",
+    //   imageUrl: "/images/interior.png", // placeholder
+    //   buttonLabel: "View Project",
+    //   link: "https://theraminterior.com/",
+    // },
+    {
+      id: 4,
+      title: "Gypsy Tours",
+      description: "Plan your perfect vacation with Gypsy Tours.",
+      imageUrl: "/images/gypsy.png",
+      buttonLabel: "View Project",
+      link: "https://www.gypsytours.in/",
+    },
+        {
+      id: 4,
+      title: "Modern Website co-working space ",
+      description: "We’re much more than just a co-working space",
+      imageUrl: "/images/teloz.png",
+      buttonLabel: "View Project",
+      link: "https://landing-page-xi-five-43.vercel.app/",
     },
     {
       id: 2,
@@ -50,14 +82,6 @@ const Project = () => {
       imageUrl: "/images/roamers.png", // placeholder
       buttonLabel: "View Project",
       link: "https://www.roamersholidays.in/",
-    },
-    {
-      id: 3,
-      title: "The Ram Interior",
-      description: "Transform your space with elegant interior design.",
-      imageUrl: "/images/interior.png", // placeholder
-      buttonLabel: "View Project",
-      link: "https://theraminterior.com/",
     },
     {
       id: 4,
